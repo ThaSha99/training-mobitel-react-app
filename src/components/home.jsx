@@ -58,15 +58,15 @@ const Home = () => {
           {jobCards.map((job, index) => (
             <div
               key={index}
-              className="w-[404px] h-fit bg-white rounded-[30px] shadow-md flex flex-col"
+              className="w-[404px]  bg-white rounded-[30px] shadow-md flex flex-col"
             >
-              <div className="bg-[#0055A2] text-white p-8 rounded-t-[30px]">
+              <div className="bg-[#0055A2] text-white p-8 rounded-t-[30px] ">
                 <h2 className="text-lg font-semibold leading-tight text-center">
                   {job.title}
                 </h2>
               </div>
 
-              <div className="flex-1 p-4 flex flex-col">
+              <div className="flex-1 p-4  flex flex-col">
                 <p className="text-sm text-gray-700 mb-4 leading-relaxed">
                   {job.description}
                 </p>
