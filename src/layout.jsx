@@ -3,6 +3,8 @@ import NavBar from "./components/navbar.jsx";
 import Footer from "./components/footer.jsx";
 
 
+
+
 const Layout = () => {
   
 

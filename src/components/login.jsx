@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const Login = () => {
   return (
     <div className="min-h-screen bg-white flex items-center justify-center">
@@ -35,7 +37,7 @@ const Login = () => {
 
          
           <p className="text-white text-sm mt-4 text-center">
-            Don't have an account? <a href="#" className="font-semibold">SignUp</a>
+            Don't have an account? <a href="#" className="font-semibold"><Link to="/SignUp">Signup</Link></a>
           </p>
 
           
