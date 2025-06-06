@@ -8,6 +8,7 @@ import About from "./components/about.jsx";
 import Login from "./components/login.jsx";
 import Signup from "./components/signup.jsx";
 import JobCards from "./components/User/find-job.js";
+import Upload from "./components/User/upload-cv.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -18,9 +19,10 @@ createRoot(document.getElementById("root")).render(
           <Route path="about" element={<About />} />
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
-          <Route path="user/find-job" element={<JobCards/>} />
+          <Route path="user/find-job" element={<JobCards />} />
+          <Route path="user/upload-cv" element={<Upload />} />
         </Route>
       </Routes>
     </BrowserRouter>
-  </StrictMode>,
+  </StrictMode>
 );
